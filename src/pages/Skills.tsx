@@ -7,9 +7,9 @@ const skills = {
     icon: FileCode,
     items: [
       "Python",
-      "SQL",
       "JavaScript",
       "C",
+      "SQL",
     ],
   },
   "Frameworks & Libraries": {
@@ -17,7 +17,7 @@ const skills = {
     items: [
       "Langchain  ",
       "Scikit-learn",
-      "Ollama",
+      "Make.com",
       "Streamlit",
     ],
   },
@@ -30,7 +30,8 @@ const skills = {
     items: [
       "Git",
       "Docker",
-      "faiss DB",
+      "Ollama",
+      "FAISS DB",
       "Chroma DB",
       "Jupyter Notebook",
       "Google Colab",

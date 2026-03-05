@@ -4,7 +4,7 @@ import { Users, Code, Globe, HeartHandshake, Music } from "lucide-react";
 
 const pors = [
   {
-  title: "Coordinator",
+  title: "Associate Coordinator",
   organization: "SPICMACAY IIT Kharagpur",
   icon: Music,
   description: [

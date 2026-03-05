@@ -62,11 +62,10 @@ const About = () => {
                 , currently pursuing BSc in Physics at the
                 <Tooltip>
                   <TooltipTrigger asChild>
-                    <span className="text-foreground font-semibold cursor-pointer mx-1 inline-block">Indian Institute of Technology Kharagpur</span>
+                    <span className="text-foreground font-semibold cursor-pointer mx-1 inline-block">Indian Institute of Technology Kharagpur.</span>
                   </TooltipTrigger>
                     <TooltipContent side="top" align="center">Consistently ranked among the top engineering institutes in India.</TooltipContent>
                 </Tooltip>
-                .
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 I build
@@ -134,8 +133,8 @@ const About = () => {
                 </span>
                 , and
                 <span className="text-foreground font-semibold mx-1">
-                  intelligent automation workflows
-                </span>.
+                  intelligent automation workflows.
+                </span>
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed">

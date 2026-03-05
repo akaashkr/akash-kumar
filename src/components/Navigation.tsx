@@ -7,7 +7,7 @@ import { NavLink } from "./NavLink";
 const navItems = [
 	{ name: "Home", path: "/" },
 	{ name: "About", path: "/about" },
-	{ name: "Experience", path: "/experience" },
+	// { name: "Experience", path: "/experience" },
 	{ name: "Projects", path: "/projects" },
 	{ name: "Skills", path: "/skills" },
 	{ name: "PORs", path: "/pors" },

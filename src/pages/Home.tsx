@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import React, { useRef, useState } from "react";
-import BlogPreviewModal from "@/components/BlogPreviewModal";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Download, Mail, ArrowRight } from "lucide-react";
@@ -143,7 +142,7 @@ const Home = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8, duration: 0.6 }}
             >
-              {["Python", "LangChain", "Chroma DB", "Streamlit"].map(
+              {["Python", "LangChain", "Make.com", "Vector Database"].map(
                 (tech, index) => (
                   <motion.div
                     key={tech}
