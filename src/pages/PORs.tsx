@@ -1,41 +1,41 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Users, Code, Globe } from "lucide-react";
+import { Users, Code, Globe, HeartHandshake, Music } from "lucide-react";
 
 const pors = [
   {
-    title: "Secretary Web",
-    organization: "Technology Students' Gymkhana, IIT Kharagpur",
-    icon: Globe,
-    description: [
-      "Managed the entire Gymkhana website infrastructure",
-      "Built admin and user interfaces for SOAC portal",
-      "Led web development initiatives across campus",
-      "Coordinated with multiple teams for seamless integration",
-    ],
-  },
-  {
-    title: "Senior Executive Member",
-    organization: "KodeinKGP - Blockchain Team",
-    icon: Code,
-    description: [
-      "Smart contract development and auditing",
-      "Building decentralized applications (dApps)",
-      "Web3 research and development",
-      "Mentoring junior members in blockchain technology",
-    ],
-  },
-  {
-    title: "Subhead",
-    organization: "Rajasthan Cultural Association",
-    icon: Users,
-    description: [
-      "Organizing cultural events and festivals",
-      "Promoting Rajasthani heritage on campus",
-      "Managing teams and coordinating activities",
-      "Building community engagement initiatives",
-    ],
-  },
+  title: "Coordinator",
+  organization: "SPICMACAY IIT Kharagpur",
+  icon: Music,
+  description: [
+    "Coordinated and managed classical music events under SPICMACAY at IIT Kharagpur",
+    "Successfully organised concerts including Ustad Amjad Ali Khan's sarod recital with three houseful auditoriums",
+    "Assisted in organising Pt. Vishwa Mohan Bhatt's recital and other cultural programs",
+    "Handled event coordination, logistics, and audience management for large-scale performances",
+  ],
+},
+{
+  title: "Student Member",
+  organization: "Child Rights and You (CRY)",
+  icon: HeartHandshake,
+  description: [
+    "Conducted awareness workshops for school students on child rights, education, and child abuse",
+    "Participated in fundraising and donation drives to support underprivileged children",
+    "Taught school students on weekends using interactive teaching methods",
+    "Contributed to social outreach initiatives focused on child welfare and education",
+  ],
+},
+{
+  title: "Unit Leader",
+  organization: "National Service Scheme (NSS), IIT Kharagpur",
+  icon: Users,
+  description: [
+    "Led and coordinated an NSS unit conducting weekly outreach activities in a local village school",
+    "Managed team planning, task allocation, and on-ground execution of community initiatives",
+    "Organised educational sessions, games, and TLM-based activities for school students",
+    "Conducted community welfare and awareness drives to support local students",
+  ],
+},
 ];
 
 const PORs = () => {

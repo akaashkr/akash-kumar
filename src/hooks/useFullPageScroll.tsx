@@ -4,11 +4,11 @@ import { useNavigate, useLocation } from "react-router-dom";
 const routes = [
   "/",
   "/about",
-  "/experience",
+  // "/experience",
   "/projects",
   "/skills",
   "/pors",
-  "/achievements",
+  // "/achievements",
   "/resume",
   "/contact",
 ];

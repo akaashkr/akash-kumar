@@ -4,22 +4,10 @@ import { Trophy, Award, Medal } from "lucide-react";
 
 const achievements = [
   {
-    title: "JEE Mains - All India Rank 20019",
-    description: "Secured AIR 20019 in one of India's most competitive entrance examinations",
+    title: "NTSE Stage 1 Qualified",
+    description: "Cleared the National Talent Search Examination Stage 1, ranking among the top 1% of students nationwide.",
     icon: Trophy,
     color: "text-neon-cyan",
-  },
-  {
-    title: "JEE Advanced - Category Rank 2109",
-    description: "Achieved Category Rank 2109 in JEE Advanced, gaining admission to IIT Kharagpur",
-    icon: Award,
-    color: "text-neon-purple",
-  },
-  {
-    title: "Bronze Medal - University Hockey",
-    description: "Won Bronze medal in 'Shaurya' - University Hockey Competition",
-    icon: Medal,
-    color: "text-neon-blue",
   },
 ];
 

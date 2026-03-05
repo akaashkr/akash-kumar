@@ -6,61 +6,13 @@ import { Button } from "@/components/ui/button";
 const experiences = [
   {
     title: "Full Stack Developer",
-    company: "OpenSoft GC 2025",
-    period: "Jan 2025 - Present",
+    company: "OpenSoft GC 2026",
+    period: "Jan 2026 - Present",
     description: [
       "Built authentication system and REST APIs using FastAPI",
       "Developed complete frontend using React + TypeScript",
       "Integrated AI chatbot with FastAPI backend",
       "Designed smooth and responsive UI components",
-    ],
-    link: null,
-  },
-  {
-    title: "Full Stack Developer",
-    company: "Chemsparsh",
-    period: "Dec 2024 - Present",
-    description: [
-      "Developed backend for online test series platform",
-      "Implemented multi-role admin system",
-      "Optimized for high traffic handling",
-      "Built scalable architecture with FastAPI",
-    ],
-    link: "https://chemsparsh.com",
-  },
-  {
-    title: "Creator & Developer",
-    company: "Niblie - Web Extension",
-    period: "Apr 2024 - Present",
-    description: [
-      "Multi-purpose browser extension with advanced features",
-      "Web scraping and ad-blocking capabilities",
-      "Sound booster and dark reader functionality",
-      "Published on Chrome Web Store",
-    ],
-    link: "https://github.com/shashix07/Niblie",
-  },
-  {
-    title: "Frontend Developer",
-    company: "Webdada",
-    period: "May 2024",
-    description: [
-      "Event management platform development",
-      "React + Tailwind CSS implementation",
-      "Admin and organizer dashboards",
-      "Interactive UI components",
-    ],
-    link: null,
-  },
-  {
-    title: "Secretary Web",
-    company: "Technology Students' Gymkhana, IIT Kharagpur",
-    period: "2024",
-    description: [
-      "Managed entire Gymkhana website infrastructure",
-      "Built admin and user interfaces for SOAC portal",
-      "Implemented responsive design patterns",
-      "Led web development initiatives",
     ],
     link: null,
   },

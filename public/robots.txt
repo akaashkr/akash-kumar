@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://shashikant-kataria.vercel.app/sitemap.xml
+Sitemap: https://akashkumar.live/sitemap.xml

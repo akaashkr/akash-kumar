@@ -11,9 +11,7 @@ const navItems = [
 	{ name: "Projects", path: "/projects" },
 	{ name: "Skills", path: "/skills" },
 	{ name: "PORs", path: "/pors" },
-	{ name: "Achievements", path: "/achievements" },
-	{ name: "Tools", path: "/tools" },
-	{ name: "Blog", path: "/blog" },
+	// { name: "Achievements", path: "/achievements" },
 	{ name: "Resume", path: "/resume" },
 	{ name: "Contact", path: "/contact" },
 ];
@@ -29,7 +27,7 @@ const Navigation = () => {
 					<div className="flex items-center justify-between">
 						<NavLink to="/" activeClassName="text-primary">
 							<img
-								src="/Shashikant-Kataria.png"
+								src="/akash-kumar.png"
 								alt="Logo"
 								className="w-10 h-10 rounded-full object-cover border-2 border-primary shadow-md cursor-pointer"
 								onClick={(e) => {
@@ -104,7 +102,7 @@ const Navigation = () => {
 						onClick={() => setShowPreview(false)}
 					>
 						<motion.img
-							src="/Shashikant-Kataria.png"
+							src="/akash-kumar.png"
 							alt="Large Preview"
 							className="max-w-full max-h-[80vh] rounded-lg border-4 border-primary shadow-2xl"
 							initial={{ scale: 0.8 }}

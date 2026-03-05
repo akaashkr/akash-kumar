@@ -5,48 +5,11 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Niblie Browser Extension",
-    category: "Browser Extension",
-    description:
-      "Multi-purpose browser extension featuring web scraping, ad-blocking, sound booster, and dark reader functionality. Published on Chrome Web Store.",
-    tech: ["JavaScript", "Chrome API", "Web Scraping"],
-    github: "https://github.com/shashix07/Niblie",
-    live: "https://shashix07.github.io/Niblie/",
-  },
-  {
-    title: "Chemsparsh Platform",
-    category: "Full Stack",
-    description:
-      "Online test series platform with comprehensive backend architecture, multi-role admin system, and high traffic optimization using FastAPI.",
-    tech: ["FastAPI", "Python", "PostgreSQL", "React"],
-    github: null,
-    live: "https://chemsparsh.com",
-  },
-  {
-    title: "OpenSoft GC 2025",
-    category: "Full Stack",
-    description:
-      "Complete authentication system with REST APIs, integrated AI chatbot, and modern React frontend with TypeScript.",
-    tech: ["FastAPI", "React", "TypeScript", "AI Integration"],
-    github: "https://github.com/shashiX07/Opensoft-2025",
-    live: null,
-  },
-  {
-    title: "Webdada Event Platform",
-    category: "Frontend",
-    description:
-      "Event management platform with dashboards for organizers and admins. Built with React and Tailwind CSS.",
-    tech: ["React", "Tailwind CSS", "Dashboard UI"],
-    github: null,
-    live: null,
-  },
-  {
-    title: "Blockchain dApps",
-    category: "Blockchain",
-    description:
-      "Various decentralized applications built with Solidity smart contracts as part of KodeinKGP blockchain team.",
-    tech: ["Solidity", "Web3.js", "Ethereum"],
-    github: null,
+    title: "YouTube Video Chatbot",
+    category: "RAG",
+    description: "An AI chatbot that answers questions from YouTube Videos, using RAG. It extracts video transcripts, generates embeddings, and retrieves relevant context for accurate responses.",
+    tech: ["Python", "Streamlit", "LangChain", "FAISS", "youtube-transcript-api"],
+    github: "https://github.com/akaashkr/youtube_chat_app",
     live: null,
   },
 ];

@@ -1,10 +1,10 @@
 {
-  "name": "shashikant-portfolio",
+  "name": "akash-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Portfolio website of Shashikant Kataria - Blockchain Developer, Full Stack Engineer from IIT Kharagpur",
-  "author": "Shashikant Kataria",
+  "description": "Portfolio website of Akash Kumar - AI Engineer, Machine Learning Engineer from IIT Kharagpur",
+  "author": "Akash Kumar",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

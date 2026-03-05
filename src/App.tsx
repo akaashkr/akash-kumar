@@ -9,17 +9,13 @@ import Navigation from "./components/Navigation";
 import ScrollIndicator from "./components/ScrollIndicator";
 import Index from "./pages/Index";
 import About from "./pages/About";
-import Experience from "./pages/Experience";
+// import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import PORs from "./pages/PORs";
-import Achievements from "./pages/Achievements";
+// import Achievements from "./pages/Achievements";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
-import Blog from "./pages/Blog";
-import BlogPost from "./pages/BlogPost";
-import Tools from "./pages/Tools";
-import QRCodeTool from "./pages/QRCodeTool";
 import NotFound from "./pages/NotFound";
 import { HelmetProvider } from "react-helmet-async"; // <-- Add this import
 
@@ -49,17 +45,13 @@ const AppContent = () => {
         <Routes>
           <Route path="/" element={<PageWrapper><Index /></PageWrapper>} />
           <Route path="/about" element={<PageWrapper><About /></PageWrapper>} />
-          <Route path="/experience" element={<PageWrapper><Experience /></PageWrapper>} />
+          {/* <Route path="/experience" element={<PageWrapper><Experience /></PageWrapper>} /> */}
           <Route path="/projects" element={<PageWrapper><Projects /></PageWrapper>} />
           <Route path="/skills" element={<PageWrapper><Skills /></PageWrapper>} />
           <Route path="/pors" element={<PageWrapper><PORs /></PageWrapper>} />
-          <Route path="/achievements" element={<PageWrapper><Achievements /></PageWrapper>} />
+          {/* <Route path="/achievements" element={<PageWrapper><Achievements /></PageWrapper>} /> */}
           <Route path="/resume" element={<PageWrapper><Resume /></PageWrapper>} />
           <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
-          <Route path="/blog" element={<PageWrapper><Blog /></PageWrapper>} />
-          <Route path="/blog/:slug" element={<PageWrapper><BlogPost /></PageWrapper>} />
-          <Route path="/tools" element={<PageWrapper><Tools /></PageWrapper>} />
-          <Route path="/tools/qr-code" element={<PageWrapper><QRCodeTool /></PageWrapper>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </AnimatePresence>

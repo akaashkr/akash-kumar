@@ -11,28 +11,28 @@ const About = () => {
 
   const education = [
     {
-      degree: "B.Tech in Agricultural and Food Engineering",
+      degree: "Bachelor of Science in Physics",
       institution: "Indian Institute of Technology Kharagpur",
       period: "2024 - 2028",
-      cgpa: "7.96",
+      // cgpa: "",
       logo: "about/kgp-logo.png",
       link: "https://iitkgp.ac.in",
     },
     {
       degree: "Class XII",
-      institution: "Shri Paliram Brijlal Sr Sec School, Surajgarh",
+      institution: "Central Public School, Azamgarh",
       period: "2023",
-      percentage: "96.20%",
-      logo: "about/pb-school-logo.png",
-      link: "https://shashikant-kataria.vercel.app/about", 
+      // percentage: "",
+      logo: "about/cps-school-logo.png",
+      link: "https://centralpublicschool.in/", 
     },
     {
       degree: "Class X",
-      institution: "Tagore Public School, Surajgarh",
+      institution: "Central Public Academy, Azamgarh",
       period: "2021",
-      percentage: "93%",
-      logo: "about/tps.png",
-      link: "https://www.tpssurajgarh.com/"
+      // percentage: "",
+      logo: "about/cpa-school-logo.png",
+      // link: ""
     },
   ];
 
@@ -55,18 +55,11 @@ const About = () => {
                 I am a
                 <Tooltip>
                   <TooltipTrigger asChild>
-                    <span className="text-primary font-semibold cursor-pointer mx-1 inline-block">Blockchain Developer</span>
+                    <span className="text-primary font-semibold cursor-pointer mx-1 inline-block">AI Engineer</span>
                   </TooltipTrigger>
-                    <TooltipContent side="top" align="center">Built a production-grade NFT platform using Solidity and web3.js.</TooltipContent>
+                    <TooltipContent side="top" align="center">Building LLM systems, RAG pipelines, and AI agents.</TooltipContent>
                 </Tooltip>
-                and
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <span className="text-primary font-semibold cursor-pointer mx-1 inline-block">Full Stack Engineer</span>
-                  </TooltipTrigger>
-                    <TooltipContent side="top" align="center">Delivered scalable full-stack apps from backend to UI, end-to-end.</TooltipContent>
-                </Tooltip>
-                , currently pursuing B.Tech in Agricultural and Food Engineering at the
+                , currently pursuing BSc in Physics at the
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <span className="text-foreground font-semibold cursor-pointer mx-1 inline-block">Indian Institute of Technology Kharagpur</span>
@@ -76,54 +69,96 @@ const About = () => {
                 .
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                I build scalable backend systems using
+                I build
                 <Tooltip>
                   <TooltipTrigger asChild>
-                    <span className="text-foreground font-semibold cursor-pointer mx-1 inline-block">FastAPI</span>
+                    <span className="text-primary font-semibold cursor-pointer mx-1 inline-block">
+                      LLM-powered applications
+                    </span>
                   </TooltipTrigger>
-                    <TooltipContent side="top" align="center">Designed REST APIs with async Python and blazing-fast performance.</TooltipContent>
+                  <TooltipContent side="top" align="center">
+                    Applications powered by large language models for reasoning and automation.
+                  </TooltipContent>
+                </Tooltip>
+                ,
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <span className="text-primary font-semibold cursor-pointer mx-1 inline-block">
+                      RAG systems
+                    </span>
+                  </TooltipTrigger>
+                  <TooltipContent side="top" align="center">
+                    Retrieval-Augmented Generation using vector databases and external knowledge.
+                  </TooltipContent>
+                </Tooltip>
+                , and
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <span className="text-primary font-semibold cursor-pointer mx-1 inline-block">
+                      autonomous AI agents
+                    </span>
+                  </TooltipTrigger>
+                  <TooltipContent side="top" align="center">
+                    Agents capable of tool use, reasoning, and multi-step decision making.
+                  </TooltipContent>
+                </Tooltip>
+                using frameworks such as
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <span className="text-foreground font-semibold cursor-pointer mx-1 inline-block">
+                     LangChain
+                    </span>
+                  </TooltipTrigger>
+                  <TooltipContent side="top" align="center">
+                    Framework for building LLM applications and agent workflows.
+                  </TooltipContent>
                 </Tooltip>
                 and
                 <Tooltip>
                   <TooltipTrigger asChild>
-                    <span className="text-foreground font-semibold cursor-pointer mx-1 inline-block">Node.js</span>
+                    <span className="text-foreground font-semibold cursor-pointer mx-1 inline-block">
+                     LangGraph
+                    </span>
                   </TooltipTrigger>
-                    <TooltipContent side="top" align="center">Built real-time and event-driven services with Node.js and TypeScript.</TooltipContent>
+                  <TooltipContent side="top" align="center">
+                    Framework for building stateful, multi-step LLM workflows and agent systems.
+                  </TooltipContent>
                 </Tooltip>
-                , modern web frontends with
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <span className="text-foreground font-semibold cursor-pointer mx-1 inline-block">React + Tailwind</span>
-                  </TooltipTrigger>
-                    <TooltipContent side="top" align="center">Created responsive, accessible UIs with React and Tailwind CSS.</TooltipContent>
-                </Tooltip>
-                , and cross-platform mobile apps using
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <span className="text-foreground font-semibold cursor-pointer mx-1 inline-block">Flutter</span>
-                  </TooltipTrigger>
-                    <TooltipContent side="top" align="center">Published multi-platform apps with Flutter and Dart.</TooltipContent>
-                </Tooltip>
-                and
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <span className="text-foreground font-semibold cursor-pointer mx-1 inline-block">React Native</span>
-                  </TooltipTrigger>
-                    <TooltipContent side="top" align="center">Built performant mobile apps for iOS and Android with React Native.</TooltipContent>
-                </Tooltip>
-                .
+                , focusing on
+                <span className="text-foreground font-semibold mx-1">
+                  multi-agent systems
+                </span>
+                ,
+                <span className="text-foreground font-semibold mx-1">
+                  tool-integrated reasoning
+                </span>
+                , and
+                <span className="text-foreground font-semibold mx-1">
+                  intelligent automation workflows
+                </span>.
               </p>
+
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I also contribute to decentralized apps and smart contract development as part of the
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <span className="text-secondary font-semibold cursor-pointer mx-1 inline-block">Blockchain Team at KodeinKGP</span>
-                  </TooltipTrigger>
-                    <TooltipContent side="top" align="center">Web3 & AI society at IIT Kharagpur, building the future of decentralized tech.</TooltipContent>
-                </Tooltip>
-                , IIT Kharagpur's Web3 & AI society.
+                My goal is to design
+                <span className="text-primary font-semibold mx-1">
+                  scalable AI systems
+                </span>
+                that combine
+                <span className="text-foreground font-semibold mx-1">
+                  language models
+                </span>
+                ,
+                <span className="text-foreground font-semibold mx-1">
+                  external tools
+                </span>
+                , and
+                <span className="text-foreground font-semibold mx-1">
+                  structured knowledge
+                </span>
+                to solve real-world problems efficiently.
               </p>
             </div>
+            
           </TooltipProvider>
 
           <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
@@ -158,12 +193,12 @@ const About = () => {
                     <p className="text-muted-foreground mb-1">{edu.institution}</p>
                     <p className="text-sm text-muted-foreground">{edu.period}</p>
                   </div>
-                  <div className="flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-lg">
+                  {/* <div className="flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-lg">
                     <Award className="h-5 w-5 text-primary" />
                     <span className="font-semibold text-primary">
                       {edu.cgpa || edu.percentage}
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </motion.div>
             ))}
@@ -172,6 +207,7 @@ const About = () => {
       </div>
     </div>
   );
+
 };
 
 export default About;

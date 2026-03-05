@@ -4,11 +4,11 @@ import { useFullPageScroll } from "@/hooks/useFullPageScroll";
 const routes = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
-  { name: "Experience", path: "/experience" },
+  // { name: "Experience", path: "/experience" },
   { name: "Projects", path: "/projects" },
   { name: "Skills", path: "/skills" },
   { name: "PORs", path: "/pors" },
-  { name: "Achievements", path: "/achievements" },
+  // { name: "Achievements", path: "/achievements" },
   { name: "Resume", path: "/resume" },
   { name: "Contact", path: "/contact" },
 ];

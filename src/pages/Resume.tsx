@@ -21,7 +21,7 @@ const Resume = () => {
 
           <div className="flex gap-4 mb-12 flex-wrap">
             <a
-              href="/shashikant-kataria-resume.pdf"
+              href="/akash-kumar-resume.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
@@ -34,7 +34,7 @@ const Resume = () => {
             </a>
 
             <a
-              href="/shashikant-kataria-resume.pdf"
+              href="/akash-kumar-resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="min-w-0 flex-1"
@@ -51,19 +51,19 @@ const Resume = () => {
             <div className="space-y-8">
               <div>
                 <h2 className="text-3xl font-bold text-foreground mb-2">
-                  Shashikant Kataria
+                  Akash Kumar
                 </h2>
                 <p className="text-xl gradient-text font-semibold mb-4">
-                  Blockchain Developer | Full Stack Engineer | Mobile Developer
+                  AI Engineer | ML Engineer | Data Analyst
                 </p>
                 <div className="flex flex-wrap gap-4 text-muted-foreground">
                   <span className="flex items-center gap-2">
                     <Mail className="h-4 w-4 text-primary" />
-                    shashi007.iitkgp@gmail.com
+                    theexpertlearner@gmail.com
                   </span>
                   <span className="flex items-center gap-2">
                     <Phone className="h-4 w-4 text-primary" />
-                    +91 6378454339
+                    +91 9936874700
                   </span>
                 </div>
               </div>
@@ -72,12 +72,12 @@ const Resume = () => {
                 <h3 className="text-2xl font-bold mb-4 text-primary">Education</h3>
                 <div className="space-y-2">
                   <p className="font-semibold">
-                    B.Tech in Agricultural and Food Engineering
+                    Bachelor of Science in Physics
                   </p>
                   <p className="text-muted-foreground">
-                    Indian Institute of Technology Kharagpur (2023-2028)
+                    Indian Institute of Technology Kharagpur (2024-2028)
                   </p>
-                  <p className="text-muted-foreground">CGPA: 7.96</p>
+                  {/* <p className="text-muted-foreground">CGPA: 7.96</p> */}
                 </div>
               </div>
 
@@ -89,13 +89,13 @@ const Resume = () => {
                   <div>
                     <p className="font-semibold mb-2">Languages:</p>
                     <p className="text-muted-foreground">
-                      JavaScript, TypeScript, Python, Golang, C++, Solidity
+                      Python, JavaScript, SQL
                     </p>
                   </div>
                   <div>
                     <p className="font-semibold mb-2">Frameworks:</p>
                     <p className="text-muted-foreground">
-                      React, FastAPI, Django, Flutter, React Native
+                      Langchain, Streamlit, Scikit-learn
                     </p>
                   </div>
                 </div>
@@ -109,20 +109,7 @@ const Resume = () => {
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1">▹</span>
                     <span>
-                      <strong>Niblie:</strong> Multi-purpose browser extension
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-primary mt-1">▹</span>
-                    <span>
-                      <strong>Chemsparsh:</strong> Online test series platform
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-primary mt-1">▹</span>
-                    <span>
-                      <strong>OpenSoft GC:</strong> Full stack application with
-                      AI integration
+                      <strong>Youtube Chat App:</strong> Chat with any YouTube video.
                     </span>
                   </li>
                 </ul>

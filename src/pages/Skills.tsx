@@ -6,42 +6,35 @@ const skills = {
   "Programming Languages": {
     icon: FileCode,
     items: [
-      "JavaScript",
-      "TypeScript",
       "Python",
-      "Golang",
-      "C++",
+      "SQL",
+      "JavaScript",
       "C",
-      "Solidity",
     ],
   },
   "Frameworks & Libraries": {
     icon: Code2,
     items: [
-      "React",
-      "Vite",
-      "Django",
-      "Flask",
-      "FastAPI",
-      "Flutter",
-      "Tailwind CSS",
-      "React Native",
+      "Langchain  ",
+      "Scikit-learn",
+      "Ollama",
+      "Streamlit",
     ],
+  },
+  "Data Tools": {
+    icon: Database,
+    items: ["Numpy", "Pandas", "Matplotlib", "Seaborn"],
   },
   "Tools & Platforms": {
     icon: Wrench,
     items: [
       "Git",
       "Docker",
-      "Azure",
-      "Firebase",
-      "Postman",
-      "Supabase",
+      "faiss DB",
+      "Chroma DB",
+      "Jupyter Notebook",
+      "Google Colab",
     ],
-  },
-  Databases: {
-    icon: Database,
-    items: ["MySQL", "PostgreSQL", "MongoDB", "Firestore"],
   },
 };
 

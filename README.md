@@ -1,6 +1,6 @@
-# Shashikant Kataria - Portfolio Website
+# Akash Kumar - Portfolio Website
 
-A modern, interactive portfolio website showcasing my work as a Blockchain Developer, Full Stack Engineer, and Mobile Developer from IIT Kharagpur.
+A modern, interactive portfolio website showcasing my work as a AI Engineer from IIT Kharagpur.
 
 ## 🛠️ Technologies Used
 
@@ -19,10 +19,10 @@ Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) and npm instal
 
 ```bash
 # Clone the repository
-git clone https://github.com/shashix07/shashikant-kataria.git
+git clone https://github.com/akaashkr/akash-kumar.git
 
 # Navigate to project directory
-cd shashikant-kataria
+cd akash-kumar
 
 # Install dependencies
 npm install
@@ -105,9 +105,9 @@ This project is open source and available under the MIT License.
 
 ## 👤 Author
 
-**Shashikant Kataria**
+**Akash Kumar**
 - IIT Kharagpur
-- Blockchain Developer | Full Stack Engineer | Mobile Developer
+- AI Engineer
 
 ## 🤝 Contributing
 
@@ -115,4 +115,4 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-Built with ❤️ By Shashikant Kataria
+Built with ❤️ By Akash Kumar.

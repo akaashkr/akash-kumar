@@ -1,7 +1,7 @@
 {
-  "name": "Shashikant Kataria - Blockchain Developer & Full Stack Engineer",
-  "short_name": "Shashikant Kataria",
-  "description": "Portfolio of Shashikant Kataria - Blockchain Developer, Full Stack Engineer, and Mobile Developer from IIT Kharagpur. Specialized in Web3, React, FastAPI, Flutter, and Smart Contract Development.",
+  "name": "Akash Kumar - AI Engineer | LLM & Agentic AI",
+  "short_name": "Akash Kumar",
+  "description": "Portfolio of Akash Kumar, an AI Engineer from IIT Kharagpur building LLM-powered applications, RAG pipelines, and autonomous AI agents using LangChain and LangGraph.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -27,7 +27,7 @@
   "orientation": "portrait-primary",
   "scope": "/",
   "start_url": "/",
-  "categories": ["portfolio", "developer", "blockchain", "technology"],
+  "categories": ["portfolio", "ai", "machine-learning", "technology"],
   "lang": "en-US",
   "dir": "ltr"
 }
