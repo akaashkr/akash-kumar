@@ -54,7 +54,7 @@ const Resume = () => {
                   Akash Kumar
                 </h2>
                 <p className="text-xl gradient-text font-semibold mb-4">
-                  AI Engineer | ML Engineer | Data Analyst
+                  AI Engineer | Data Analyst
                 </p>
                 <div className="flex flex-wrap gap-4 text-muted-foreground">
                   <span className="flex items-center gap-2">

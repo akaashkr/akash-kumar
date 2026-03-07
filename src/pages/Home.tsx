@@ -96,7 +96,7 @@ const Home = () => {
                 Akash Kumar
               </h1>
               <div className="text-2xl md:text-3xl gradient-text font-semibold mb-8">
-                AI Engineer • ML Engineer • Data Analyst
+                AI Engineer • Data Analyst
               </div>
               <p className="text-xl text-muted-foreground mb-12">
                 IIT Kharagpur, India
