@@ -18,6 +18,7 @@ import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import { HelmetProvider } from "react-helmet-async"; // <-- Add this import
+import { Analytics } from "@vercel/analytics/react";
 
 const queryClient = new QueryClient();
 
@@ -69,6 +70,7 @@ const App = () => (
           <AppContent />
         </BrowserRouter>
       </HelmetProvider>
+      <Analytics />
     </TooltipProvider>
   </QueryClientProvider>
 );
